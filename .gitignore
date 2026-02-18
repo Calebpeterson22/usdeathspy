@@ -140,3 +140,7 @@ dmypy.json
 
 # MacOS
 .DS_Store
+
+# Specific Files
+testfile.py
+scrape_test.py

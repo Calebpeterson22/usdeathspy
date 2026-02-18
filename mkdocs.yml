@@ -1,5 +1,5 @@
-site_name: Example MkDocs Material Documentation for pypackage_template
-site_url: https://byuirpytooling.github.io/pypackage_template
+site_name: usdeathspy
+site_url: https://byuirpytooling.github.io/usdeathspy
 theme:
   name: material
   icon:
@@ -66,4 +66,4 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/school/byu-idaho
 
-copyright: Copyright &copy; 2026 J. Hathaway
+copyright: Copyright &copy; 2026 J. Hathaway & Mitchell Mecham
