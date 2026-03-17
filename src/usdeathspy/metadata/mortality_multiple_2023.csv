@@ -1,0 +1,54 @@
+name,start,end,size,type,description,codes
+reserved_1,1,18,18,str,Reserved positions,
+record_type,19,19,1,int,Record type,1=Residents|2=Nonresidents
+resident_status,20,20,1,int,Resident status (US Occurrence),1=Residents|2=Intrastate Nonresidents|3=Interstate Nonresidents|4=Foreign Residents
+reserved_2,21,62,42,str,Reserved positions,
+education,63,63,1,int,Education (2003 revision),1=8th grade or less|2=9-12th grade no diploma|3=High school graduate or GED|4=Some college no degree|5=Associate degree|6=Bachelor's degree|7=Master's degree|8=Doctorate or professional degree|9=Unknown
+education_report_flag,64,64,1,int,Education reporting flag,1=2003 revision|2=No education item
+month_of_death,65,66,2,int,Month of death,01=January|02=February|03=March|04=April|05=May|06=June|07=July|08=August|09=September|10=October|11=November|12=December
+reserved_3,67,68,2,str,Reserved positions,
+sex,69,69,1,str,Sex,M=Male|F=Female
+detail_age,70,73,4,int,Detail age,1=Years|2=Months|4=Days|5=Hours|6=Minutes|9=Age not stated
+age_substitution_flag,74,74,1,str,Age substitution flag,1=Calculated age substituted|blank=Not substituted
+age_recode_52,75,76,2,int,Age recode 52,01=Under 1 hour|52=Age not stated
+age_recode_27,77,78,2,int,Age recode 27,01=Under 1 month|27=Age not stated
+age_recode_12,79,80,2,int,Age recode 12,01=Under 1 year|12=Age not stated
+infant_age_recode_22,81,82,2,int,Infant age recode 22,01=Under 1 hour|22=11 months
+place_of_death,83,83,1,int,Place of death,1=Hospital inpatient|2=ER|3=DOA|4=Home|5=Hospice|6=Nursing home|7=Other|9=Unknown
+marital_status,84,84,1,str,Marital status,S=Single|M=Married|W=Widowed|D=Divorced|U=Unknown
+day_of_week_of_death,85,85,1,int,Day of week of death,1=Sun|2=Mon|3=Tue|4=Wed|5=Thu|6=Fri|7=Sat|9=Unknown
+reserved_4,86,101,16,str,Reserved positions,
+current_data_year,102,105,4,int,Current data year,2023=2023
+injury_at_work,106,106,1,str,Injury at work,Y=Yes|N=No|U=Unknown
+manner_of_death,107,107,1,str,Manner of death,1=Accident|2=Suicide|3=Homicide|4=Pending|5=Could not determine|6=Self-inflicted|7=Natural
+method_of_disposition,108,108,1,str,Method of disposition,B=Burial|C=Cremation|D=Donation|E=Entombment|O=Other|R=Removal|U=Unknown
+autopsy,109,109,1,str,Autopsy,Y=Yes|N=No|U=Unknown
+reserved_5,110,143,34,str,Reserved positions,
+activity_code,144,144,1,str,Activity code,0=Sports|1=Leisure|2=Work|3=Other work|4=Resting|8=Other|9=Unspecified
+place_of_injury,145,145,1,str,Place of injury,0=Home|1=Institution|2=Public|3=Sports|4=Street|5=Trade|6=Industrial|7=Farm|8=Other|9=Unspecified
+icd_code,146,149,4,str,ICD-10 code,
+cause_recode_358,150,152,3,int,358 cause recode,
+reserved_6,153,153,1,str,Reserved position,
+cause_recode_113,154,156,3,int,113 cause recode,
+infant_cause_recode_130,157,159,3,int,130 infant cause recode,
+cause_recode_39,160,161,2,int,39 cause recode,
+reserved_7,162,162,1,str,Reserved position,
+num_entity_axis_conditions,163,164,2,int,Number of entity-axis conditions,
+entity_axis_conditions,165,304,140,str,Entity-axis conditions,
+reserved_8,305,340,36,str,Reserved positions,
+num_record_axis_conditions,341,342,2,int,Number of record-axis conditions,
+reserved_9,343,343,1,str,Reserved position,
+record_axis_conditions,344,443,100,str,Record-axis conditions,
+reserved_10,444,447,4,str,Reserved positions,
+race_imputation_flag,448,448,1,str,Race imputation flag,1=Unknown imputed|2=Other imputed
+reserved_11,449,449,1,str,Reserved position,
+race_recode_6,450,450,1,int,Race recode 6,1=White|2=Black|3=AIAN|4=Asian|5=NHOPI|6=More than one
+reserved_12,451,483,33,str,Reserved positions,
+hispanic_origin,484,486,3,int,Hispanic origin,100-199=Non-Hispanic|200-299=Hispanic
+hispanic_origin_race_recode,487,488,2,int,Hispanic origin/race recode,01=Mexican|02=Puerto Rico|08=NH White|09=NH Black
+race_recode_40,489,490,2,int,Race recode 40,01=White|02=Black|03=AIAN
+reserved_13,491,805,315,str,Reserved positions,
+occupation_4digit,806,809,4,str,Occupation 4-digit Census code,
+occupation_recode,810,811,2,int,Occupation recode,01=Management|26=Other housewife
+industry_4digit,812,815,4,str,Industry 4-digit Census code,
+industry_recode,816,817,2,int,Industry recode,01=Agri|23=Military/Other
